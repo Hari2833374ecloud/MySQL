@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
+        notify: hari2833374ecloud-dev
 
     build:
         version: 5.7
@@ -11,7 +11,7 @@
         image_template: mysql-5.7
 
     deploy:
-        context: alpha/DEV
+        context: Hari2833374ecloud/DEV
         type: statefulset
         replicas: 1
         ingress: none
